@@ -1,0 +1,304 @@
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-02-03 14:36:32] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-02-03 14:36:32] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392\
+[2025-02-03 14:36:32] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Fashion_Designer/
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-03 14:36:32] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-03 14:36:32] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-02-03 14:36:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/
+[2025-02-03 14:36:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-02-03 14:36:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d470a5f94-YZRaYq.tmp
+[2025-02-03 14:36:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/?simply_static_page=1
+[2025-02-03 14:36:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/?simply_static_page=1
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:103] Filesize: 50014 bytes
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d470a5f94-YZRaYq.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/index.html
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:158] Adding 13 URLs to the queue
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:33] [class-ss-page.php:119] Checking Content Identical:e1cafaf159d0f008ef41a453359ca47d336501b0===. Value: FALSE
+[2025-02-03 14:36:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-02-03 14:36:33] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-03 14:36:33] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-03 14:36:33] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:69] Total pages: 14; Pages remaining: 13
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer
+[2025-02-03 14:36:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 14
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d47128278-SiDGCD.tmp
+[2025-02-03 14:36:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer?simply_static_page=2
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer?simply_static_page=2
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:103] Filesize: 362 bytes
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/Fashion_Designer/
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:212] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/sample-page/
+[2025-02-03 14:36:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 14
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4712a698-kV6gLR.tmp
+[2025-02-03 14:36:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/sample-page/?simply_static_page=3
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/sample-page/?simply_static_page=3
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:103] Filesize: 49119 bytes
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4712a698-kV6gLR.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/sample-page/index.html
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:158] Adding 17 URLs to the queue
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:33] [class-ss-page.php:119] Checking Content Identical:ebc95ec372580269b6d1269c01ac6524ceb716d4===. Value: FALSE
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/2025/02/03/hello-world/
+[2025-02-03 14:36:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 14
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4718eb07-Usnf47.tmp
+[2025-02-03 14:36:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/2025/02/03/hello-world/?simply_static_page=4
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/2025/02/03/hello-world/?simply_static_page=4
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:103] Filesize: 68996 bytes
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:233] New filename for static page: /2025/02/03/hello-world/index.html
+[2025-02-03 14:36:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4718eb07-Usnf47.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/2025/02/03/hello-world/index.html
+[2025-02-03 14:36:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:676d7687a777fe091711db167506d5096561bdec===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4720821c-fpDZ1Q.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=5
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=5
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4720821c-fpDZ1Q.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/feed/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/feed/
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/comments/feed/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/comments/feed/
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-includes/blocks/navigation/style.min.css
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4720d7c2-YOjGx7.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-includes/blocks/navigation/style.min.css?simply_static_page=8
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-includes/blocks/navigation/style.min.css?simply_static_page=8
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4720d7c2-YOjGx7.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-includes/blocks/navigation/style.min.css
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/style.css
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d472111ea-FDiBns.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/style.css?simply_static_page=9
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/style.css?simply_static_page=9
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 2503 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/style.css
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d472111ea-FDiBns.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-content/themes/twentytwentyfive/style.css
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:ea5b671c7e109f3a3930b4229efd36784db50107===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-json/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/wp-json/
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/xmlrpc.php
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/xmlrpc.php
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d472174dd-2CKlIq.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=12
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=12
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 36695 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d472174dd-2CKlIq.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:b8552f14cf91bdfc758994614768737736f34657===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4721b26f-zN8qTy.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2?simply_static_page=13
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2?simply_static_page=13
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 53600 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4721b26f-zN8qTy.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:5b56dbe3d3eabe178719988f4fee76d9d4ad7079===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 14
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4721f0e2-btbMzM.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2?simply_static_page=14
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2?simply_static_page=14
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 106112 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4721f0e2-btbMzM.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:8861b9f5ea4d8410ce01d59ce47dcb32edead4ce===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 14 pages/files
+[2025-02-03 14:36:34] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-03 14:36:34] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-03 14:36:34] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:69] Total pages: 24; Pages remaining: 10
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-admin/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 24
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d472249e6-cwnNmX.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-admin/?simply_static_page=15
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-admin/?simply_static_page=15
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/Fashion_Designer/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FFashion_Designer%2Fwp-admin%2F%3Fsimply_static_page%3D15&reauth=1
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:230] Redirect URL is on the same domain; adding the URL to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:242] Creating a redirect page
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:d28855699b469988830c83b40f0f8a03d68a50ab===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/sample-page/feed/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 24
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/sample-page/feed/
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-json/wp/v2/pages/2
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 24
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/wp-json/wp/v2/pages/2
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-json/oembed/1.0/embed
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 24
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/wp-json/oembed/1.0/embed
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/author/sonali/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 24
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d47274c93-reBiLJ.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/author/sonali/?simply_static_page=19
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/author/sonali/?simply_static_page=19
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:103] Filesize: 49707 bytes
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:233] New filename for static page: /author/sonali/index.html
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d47274c93-reBiLJ.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/author/sonali/index.html
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:34] [class-ss-page.php:119] Checking Content Identical:e52af1ed83642528132e14f561e15b485934db43===. Value: FALSE
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/category/uncategorized/
+[2025-02-03 14:36:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 24
+[2025-02-03 14:36:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d472d87cf-GKlmzC.tmp
+[2025-02-03 14:36:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/category/uncategorized/?simply_static_page=20
+[2025-02-03 14:36:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/category/uncategorized/?simply_static_page=20
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:103] Filesize: 54825 bytes
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4733a54c-DLqNh0.tmp
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/category/uncategorized/
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:103] Filesize: 54825 bytes
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-includes/js/comment-reply.min.js
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 24
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4738b669-68O7Gf.tmp
+[2025-02-03 14:36:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-includes/js/comment-reply.min.js?simply_static_page=21
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-includes/js/comment-reply.min.js?simply_static_page=21
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4738b669-68O7Gf.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-includes/js/comment-reply.min.js
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:35] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/2025/02/03/hello-world/feed/
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 24
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/2025/02/03/hello-world/feed/
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-includes/css/dist/block-library/common.min.css
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 24
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\meeta\AppData\Local\Temp/67a0d4738f36c-sDxGut.tmp
+[2025-02-03 14:36:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Fashion_Designer/wp-includes/css/dist/block-library/common.min.css?simply_static_page=23
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Fashion_Designer/wp-includes/css/dist/block-library/common.min.css?simply_static_page=23
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2025-02-03 14:36:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\meeta\AppData\Local\Temp/67a0d4738f36c-sDxGut.tmp to C:\xampp\htdocs\Fashion_Designer/wp-content/uploads\simply-static\temp-files/simply-static-1-1738593392/wp-includes/css/dist/block-library/common.min.css
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-03 14:36:35] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-json/wp/v2/posts/1
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 24
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/wp-json/wp/v2/posts/1
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 14 of 24 pages/files
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 3
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FFashion_Designer%2Fwp-admin%2F%3Fsimply_static_page%3D15&reauth=1
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 27
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FFashion_Designer%2Fwp-admin%2F%3Fsimply_static_page%3D15&reauth=1
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/author/sonali/feed/
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 27
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/author/sonali/feed/
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Fashion_Designer/wp-json/wp/v2/users/1
+[2025-02-03 14:36:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 27
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Fashion_Designer/wp-json/wp/v2/users/1
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-03 14:36:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 24 of 27 pages/files
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-03 14:36:35] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 0
+[2025-02-03 14:36:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 27 of 27 pages/files
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2025-02-03 14:36:35] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2025-02-03 14:36:35] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2025-02-03 14:36:35] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/Fashion_Designer/wp-content/uploads/simply-static/temp-files/simply-static-1-1738593392.zip">Click here to download</a>
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-02-03 14:36:35] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-02-03 14:36:35] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-02-03 14:36:35] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:03
+[2025-02-03 14:36:40] [class-ss-admin-settings.php:724] Received request to cancel static archive generation
+[2025-02-03 14:36:40] [class-ss-archive-creation-job.php:295] Can't cancel; job is done
